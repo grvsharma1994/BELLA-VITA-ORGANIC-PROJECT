@@ -1,0 +1,137 @@
+#up_img{
+    height: 200px;
+}
+#main{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+#main_info{
+    width: 62%;
+}
+#main_info>div{
+    display: flex;
+    justify-content: space-between;
+}
+#login{
+    color: green;
+}
+#email{
+    margin-top: 28px;
+    width: 98%;
+    height: 45px;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+#line2{
+    margin-top: 8px;
+    height: 40px;
+    border-bottom: 0.5px dashed;
+}
+#line2+div{
+    margin-top: 15px;
+    height: 45px;
+}
+#f_name{
+    height: 45px;
+    border: 1px solid grey;
+    padding-left: 15px;
+    width: 46%;
+}
+#l_name{
+    height: 45px;
+    border: 1px solid grey;
+    padding-left: 15px;
+    width: 46%;
+}
+#flat{
+    margin-top: 20px;
+    width: 98%;
+    height: 45px;
+    border: 1px solid grey;
+    padding-left: 11px;
+}
+#area{
+    margin-top: 20px;
+    width: 98%;
+    height: 45px;
+    border: 1px solid grey;
+    padding-left: 11px;
+}
+#city{
+  margin-top: 20px;
+  width: 30%;
+  height: 45px;
+  border: 1px solid grey;
+  padding-left: 15px;
+}
+#states{
+    margin-top: 20px;
+    width: 30%;
+    height: 50px;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+#pin{
+    margin-top: 20px;
+    width: 30%;
+    height: 45px;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+#phone{
+    margin-top: 20px;
+    width: 98%;
+    height: 45px;
+    border: 1px solid grey;
+    padding-left: 11px;
+}
+#pay{
+    margin-top: 20px;
+    width: 100%;
+    height: 55px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+#lowerbox{
+ height: 27px;
+ width: 100%;
+ margin-top: 40px;
+}
+#main_pay{
+    width: 35%;
+    justify-content: space-between;
+}
+#main_pay>div:nth-child(1){
+    display: flex;
+}
+#cupon{
+    height: 35px;
+    width: 78%;
+    padding-left: 15px;
+    border: 1px solid grey;
+}
+#cupon+button{
+    width: 20%;
+    height: 39px;
+    background-color: white;
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    cursor: pointer;
+}
+.total{
+    border: 1px solid grey;
+    background-color: #f3f3f3;
+    padding: 15px;
+    margin-top: 10px;
+}
+.total>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}

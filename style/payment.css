@@ -1,0 +1,57 @@
+#up_img{
+    height: 200px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.add{
+    margin-top: 15px;
+    margin: auto;
+    width: 50%;
+    border: 1px solid violet;
+    border-radius: 10px;
+    padding: 15px;
+}
+.preferance{
+    width: 40%;
+    font-size: 30px;
+    color: rgb(48, 13, 13);
+    line-height: 50px;
+    margin: auto;
+    padding: 15px 15px 15px 25px;
+    border: 1px solid grey;
+}
+.line{
+    width: 100%;
+    border-bottom: 1px solid green;
+    margin-top: 15px;
+}
+.check{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+#change{
+    background-color: brown;
+    color: white;
+    margin: 15px;
+    border: none;
+    height: 25px;
+    width: 100px;
+}
+#last{
+    width: 30%;
+    margin-left: 180px;
+    background-color: blueviolet;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}

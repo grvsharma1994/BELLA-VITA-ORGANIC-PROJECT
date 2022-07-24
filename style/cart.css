@@ -1,0 +1,168 @@
+.page_header{
+    font-size: 12px;
+    font-family: "Museo Sans", sans-serif;
+    line-height: 28px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+    }
+.page_header_anchor{
+    text-decoration: none;
+    color: black;
+}
+.container_product_order{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.product{
+    width: 70%;
+    padding-left: 16px;
+    margin-right: 21px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.order{
+    width: 25%;
+    padding-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.head{
+    font-family: "Century Gothic", sans-serif, Arial, "sans-serif";
+    color: grey;
+    
+}
+.container{
+    margin:auto;
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+   margin-top: 30px;
+   
+}
+#order_details{
+    width: 71%;
+
+}
+#price_details{
+    height: 300px;
+    width: 26%;
+   }
+.product_details{
+    width: 100%;
+    border-bottom: 1px solid rgb(219, 212, 212);
+    display: flex;
+}
+.box1{
+    height: 200px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.pr_img{
+    height: 180px;
+    width: 80%;
+}
+.box2{
+    height: 200px;
+    width: 80%;
+   color: #382d23;
+    font-family: "Century Gothic", sans-serif, Arial, "sans-serif";
+}
+.qnt_rem_line_box{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#qnt_box{
+    border: 1px solid grey;
+    width: 180px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 30px;
+}
+#qnt_box div:nth-child(2){
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    grid-column: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qnt{
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    cursor: pointer;
+    color: gray;
+}
+#qnt_box div:nth-child(2n+1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#remove{
+    margin-left: 80px;
+    margin-top:10px;
+    cursor: pointer;
+    color: grey;
+}
+#remove:hover{
+    text-decoration: underline;
+} 
+#money{
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(219, 212, 212);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Museo Sans", sans-serif;
+
+}
+#price_amount{
+    margin-top: 15px;
+    font-size: 18px;
+    
+}
+#offer{
+    font-size: 13px;
+    display: flex;
+    cursor: pointer;
+}
+#off_img{
+    width: 70px;
+    margin-left: 8px;
+    margin-bottom: -15px;
+}
+#payment_div{
+    width: 100%;
+    height: 50px;
+    background-color: #52b359;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Museo Sans", sans-serif;
+    cursor: pointer;
+}
+#trust_div{
+    height: 115px;
+    display: flex;
+    justify-content: center;
+}
+.tr_div{
+    width: 26%;
+    height: 115px;
+    cursor: pointer;
+    
+}
+.tr_img{
+    width: 80%;
+}

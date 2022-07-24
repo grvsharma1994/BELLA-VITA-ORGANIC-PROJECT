@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+</head>
+<link rel="stylesheet" href="style/common.css">
+<link rel="stylesheet" href="style/payment.css">
+<body>
+    <div>
+        <img id="up_img" src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/1620x512-Latest.png?v=1644649919" alt="">
+</div>
+    <!-- breadcrump- in the page -->
+    <div class="breadcrumb">          
+        <a class="breadcrumb_text" href="index.html">Home</a>
+        <span class="arrow">></span>
+        <span><a class="breadcrumb_text" href="cart.html">Shopping Cart</a></span>
+        <span class="arrow">></span>
+        <span><a class="breadcrumb_text" href="payment_address.html">Payment Address</a></span>
+        <span class="arrow">></span>
+        <span>Payment</span>
+    </div>
+    <div class="container">
+        <div class="add">
+            <div>
+                <button id="change" onclick="changeFunction()">Change</button>
+            </div>
+              </div>
+        <div class="preferance">
+            <input class="check" type="checkbox">
+            <label for="upi" >BHIM UPI Payment</label>
+            <div class="line"></div>
+         
+            <input class="check" type="checkbox">
+            <label for="card" >Debit/Credit/ATM Card</label>
+            <div class="line"></div>
+            <input class="check" type="checkbox">
+            <label for="net" >Net Banking</label>
+            <div class="line"></div>
+            <input class="check" type="checkbox">
+            <label for="cod" >Cash On Delivery</label>
+            </div>
+    </div>
+    <div id="last">Order Now</div>
+</body>
+</html>
+<script src="script/payment.js"></script>

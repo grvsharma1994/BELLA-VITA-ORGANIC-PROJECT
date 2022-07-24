@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+</head>
+<link rel="stylesheet" href="style/common.css">
+<link rel="stylesheet" href="style/payment_address.css">
+<body>
+    <div>
+        <img id="up_img" src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/1620x512-Latest.png?v=1644649919" alt="">
+</div>
+    <!-- breadcrump- in the page -->
+    <div class="breadcrumb">          
+        <a class="breadcrumb_text" href="index.html">Home</a>
+        <span class="arrow">></span>
+        <span><a class="breadcrumb_text" href="cart.html">Shopping Cart</a></span>
+        <span class="arrow">></span>
+        <span>Payment Address</span>
+    </div>
+    <!-- address/contact information/ payment page -->
+    <div id="main">
+        <div id="main_info">
+          <div>
+              <div>CONTACT INFORMATION</div>
+              <div>Already have an account?
+                  <span><a  id = "login" href="login.html">LOG IN</a></span>
+              </div>
+          </div>
+          <input id="email" type="email" placeholder="Email">
+          <div id="line2">
+            <span>&#x2705;Email/SMS me with news and offers</span>
+          </div>
+          <div>SHIPPING ADDRESS</div>
+          <div>
+            <input id="f_name" type="text" placeholder="First name">
+            <input id="l_name" type="text" placeholder="Last name">
+          </div>
+          <input id="flat" type="text" placeholder="Flat,House No,Building,company, Apartment">
+          <input id="area" type="text" placeholder="Area,Colony,StreetSector,Village">
+         <div>
+             <input id="city" type="text" placeholder="City">
+            <select name="states" id="states">
+                <option value="">State</option>
+                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="	Chandigarh">Chandigarh</option>
+                <option value="Dadra and Nagar Haveli,Daman  & Diu">Dadra and Nagar Haveli,Daman  & Diu</option>
+                <option value="	Delhi">	Delhi</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="	Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="	Manipur">	Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Lakshadweep">Lakshadweep</option>
+                <option value="Puducherry (Pondicherry)">Puducherry (Pondicherry)</option>
+                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                <option value="	Ladakh">Ladakh</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+            </select>
+                <input id="pin" type="number" placeholder="PIN code">
+            </div>
+            <input id="phone" type="number" placeholder="Phone">
+            <button id="pay">CONTINUE TO SHIPPING & PAYMENT</button>
+            <div id="lowerbox">
+            <img src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/payments-stripe-sub-footer_2.svg?v=1616140901" alt="">
+            </div>
+        </div>
+        <div id="main_pay">
+          <div>
+              <input id="cupon" type="text" placeholder="Gift card or Discount code">
+              <button>APPLY</button>
+          </div>
+          <div class="total">
+              <div>
+                <span>Subtotal</span>
+                <span id="final_total1">₹ 0</span>
+              </div>
+              <div>
+                <span>Shipping</span>
+                <span>Calculated at next step</span>
+              </div>
+             
+          </div>
+          <div class="total">
+            <div>
+                <span>Total</span>
+                <span></span>
+              </div>
+              <div>
+                <span>Including taxes</span>
+                <span id="final_total2">₹ 0</span>
+              </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="script/payment_address.js"></script>

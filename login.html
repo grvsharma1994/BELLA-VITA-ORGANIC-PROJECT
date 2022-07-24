@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logindetails</title>
+    <link rel="stylesheet" href="style/login.css">
+    <style>
+       
+    </style>
+
+</head>
+<body>
+    <form >
+       <div id="form1">
+            <h4>CUSTOMER LOGIN</h4>
+            <hr></hr>
+            <p>Email Address *</p>
+            <input id="email" type="email" placeholder="Email Address">
+
+            <p>Password *</p>
+            <input id="password" type="password" placeholder="Password">
+
+            <input type ="submit" id="submit">
+            
+            <div id="forgot"><a href="forgot.html">Forgot your password</a></div>
+            <div id="create"><a href="signup2.html">CREATE MY ACOOUNT</a></div>
+            <!-- <input type="submit" id="submit"> -->
+          </div>
+        
+    </form>
+</body>
+</html>
+<script>
+     document.querySelector("form").addEventListener("submit", loginFun);
+  function loginFun(){
+    event.preventDefault()
+    var arr=[]
+    var enteredemail=document.querySelector("#email").value;
+    var enteredpass=document.querySelector("#password").value;
+    // console.log(enteredemail,enteredpass)
+ var regdUsers = JSON.parse(localStorage.getItem("userCreds"))||[]
+  // console.log(regdUsers)
+    var count=0
+{for(var i=0;i<regdUsers.length;i++)
+     {
+        if(regdUsers[i].email==enteredemail&&regdUsers[i].password==enteredpass)
+        {
+          console.log("yes")
+          alert("successfully login")
+          enteredemail=""
+          enteredpass=""
+          count++
+          
+          window.location.href="index.html"
+          break;
+        }
+
+      }
+     if(count==0)
+     {console.log("No")
+     count=0
+    alert("Invalid Loginid")} 
+}
+} 
+</script>
